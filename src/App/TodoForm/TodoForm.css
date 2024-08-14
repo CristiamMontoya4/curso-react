@@ -1,0 +1,77 @@
+form {
+    background-color: rgb(163, 167, 179);
+    display: grid;
+    grid-column: auto;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 30px;
+    min-width: 350px;
+}
+
+textarea {
+    background-color: rgb(222, 232, 230);
+    width: 80%;
+    border: transparent;
+    border-radius: 10px;
+    height: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+textarea::placeholder {
+    color: rgb(26, 26, 26);
+}
+
+.TodoForm-label {
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.TodoForm-buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.TodoForm-button {
+    width: 150px;
+    height: 40px;
+    border-color: transparent;
+    border-radius: 20px;
+    margin: 15px;
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+.TodoForm-button--cancel{
+    background-color: rgb(182, 13, 13);
+    box-shadow: 10px rgb(249, 53, 53);
+    cursor: pointer;
+}
+
+.TodoForm-button--save {
+    background-color: rgb(37, 142, 37);
+    cursor: pointer;
+}
+
+.TodoForm-button--cancel:hover {
+    background-color: rgb(181, 39, 39);
+    box-shadow: 10px rgb(249, 53, 53);
+    cursor: pointer;
+}
+
+.TodoForm-button--save:hover {
+    background-color: rgb(64, 164, 64);
+    cursor: pointer;
+}
